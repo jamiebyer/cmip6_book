@@ -2,17 +2,10 @@ import json
 import os
 import re
 
-#import dash
-#import dash_bootstrap_components as dbc
-#import dash_core_components as dcc
-#import dash_html_components as html
 import numpy as np
 import xarray as xr
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
-#from dash.dependencies import Input
-#from dash.dependencies import Output
-#from dash.exceptions import PreventUpdate
 
 from cmip6_dash.src.case_utils import join_members
 from cmip6_dash.src.plot_utils import plot_member_line_comp
