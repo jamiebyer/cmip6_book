@@ -1,0 +1,32 @@
+{"models":[
+    {
+        "mod_id":"CESM2", 
+        "exp_id":["historical", "piControl", "ssp585"],
+        "positive":["up", "up", "up", "down"]
+    },
+    {
+        "mod_id":"UKESM1-0-LL",
+        "exp_id":["historical", "piControl", "abrupt-4xCO2", "ssp585"],
+        "positive":["up", "up", "up", "up"]
+    },
+    {
+        "mod_id":"CanESM5",
+        "exp_id":["historical", "piControl", "abrupt-4xCO2", "ssp585"],
+        "positive":["down", "down", "down", "down"]
+    },
+    {
+        "mod_id":"GISS-E2-1-H",
+        "exp_id":["historical", "piControl", "abrupt-4xCO2", "ssp585"],
+        "positive":["down", "down", "down", "down"]
+    },
+    {
+        "mod_id":"MRI-ESM2-0",
+        "exp_id":["historical", "piControl", "abrupt-4xCO2", "ssp585"],
+        "positive":["down", "down", "down", "down"]
+    },
+    {
+        "mod_id":"BCC-ESM1",
+        "exp_id":["historical", "piControl", "abrupt-4xCO2"],
+        "positive":["down", "down", "down"]
+    }
+  ]}
